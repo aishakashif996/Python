@@ -1,0 +1,141 @@
+PROG#1
+
+#taking user input numbers, giving sorted even or odd numbers.
+
+num=input("enter a list of numbers= ").split()
+even_num=[]
+odd_num=[]
+for n in num:
+    m=int(n)
+    if m%2==0:
+        even_num.append(m)
+    else:
+        odd_num.append(m)
+
+print(f"{even_num} = even")
+print(f"{odd_num} = odd")
+
+PROG#2
+
+#area of circle
+import math
+r=int(input("enter radius of circle: "))
+A= math.pi *(r*r)
+print(f"given radius={r},area of circle is calculated as {A}")
+
+
+PROG#3
+
+#area of parallelogram
+b=int(input("enter base of parallelogram: "))
+h=int(input("enter height of parallelogram: "))
+A=b*h
+print(f"given base={b} and height={h}, area of parallelogram is calculated as {A}")
+
+
+PROG#4
+
+#calculate area of rectangle
+l=int(input("enter length of rectangle: "))
+w=int(input("enter width of rectangle: "))
+a=l*w
+print(f"given length {l} and given width {w} , area of rectangle is {a}")
+
+
+PROG#5
+
+#area of square
+a=int(input("enter a side of square: "))
+A=a*a
+print(f"given side={a},area of square is calculated as {A}")
+
+PROG#6
+
+#area of triangle
+b=int(input("enter base of triangle: "))
+h=int(input("enter perpendicular height of triangle: "))
+A=1/2 * (b*h)
+print(f"given base={b} and height={h},area of triangle is calculated as {A}")
+
+PROG#7
+
+#arithmetic all operators
+x=int(input("enter first operand: "))
+y=int(input("enter second operand: "))
+z=x+y
+t=x-y
+n=x*y
+m=x/y
+u=x%y
+v=x**y
+b=x//y
+print(f"sum of {x} and {y} is={z}")
+print()
+print(f"difference of {x} and {y} is={t}")
+print()
+print(f"multiplication of {x} and {y} is={n}")
+print()
+print(f"division of {x} and {y} is={m}")
+print()
+print(f"modulus of {x} and {y} is={u}")
+print()
+print(f"exponential of {x} raise to the power {y} is={v}")
+print()
+print(f"floor division of {x} and {y} is={b}")
+
+
+
+
+PROG#8
+
+#fahrenheit to celsius unit conversion
+c=int(input("enter temperature in celcius: "))
+f=c*(9/5)+32
+print(f"{c} celsius is = {f} fahrenheit")
+
+
+
+PROG#9
+
+#comparison operators
+x=int(input("enter first operand: "))
+y=int(input("enter second operand: "))
+z= x==y
+p= x!=y
+q= x>y
+r= x<y
+s= x>=y
+t= x<=y
+print(f"given first operand,{x} and second operand,{y} are equal   {z}")
+print(f"given first operand,{x} and second operand,{y} are not equal   {p}")
+print(f"given first operand,{x} is greater than second operand,{y}    {q}")
+print(f"given first operand,{x} is less than second operand,{y}   {r}")
+print(f"given first operand,{x} is greater than or equal to second operand,{y}   {s}")
+print(f"given first operand,{x} is less than or equal to second operand,{y}   {t}")
+
+
+
+
+PROG#10
+
+#fahrenheit to celsius unit conversion
+f=int(input("enter temperature in fahrenheit: "))
+c=(f-32)*(9/5)
+print(f"{f} fahrenheit is = {c} celsius")
+
+
+PROG#11
+
+#logical operators
+x=int(input("enter first operand: "))
+y=int(input("enter second operand: "))
+f=x>10 and y>10
+t=x>10 or y>10
+u=not(x>10 and y>10)
+print(f"both operand {x} and {y} is greater than 10    {f}")
+print(f"either first operand {x} or second operand {y} are greater than 10   {t}")
+print(f"giving opposite result i.e {u}, when {x} any {y} are greater than 10")
+
+
+
+
