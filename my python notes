@@ -1,0 +1,148 @@
+“MY PYTHON NOTES”
+
+
+A computer is an electronic device that stores and processes information
+
+a program is a sequence of instructions that a computer can run.
+
+A library is a collection of code that can be used in other programs
+
+Q: In general, Python programs are _____ than Java programs. 
+a.	faster b. longer c. shorter
+
+Q: what syntax required by Java is not required by Python? 
+a. semicolons b. parentheses c. quote marks
+
+The error message, EOF stands for End of File.
+
+The print() function displays output to the user. 
+
+Output is the information or result produced by a program.
+
+INPUT:
+print("Today", "is", "Monday", sep="? ", end="!!") 
+print("I like string beans.") 
+
+OUTPUT:
+Today? is? Monday!!I like string beans. 
+Note: The end option can be used to continue printing on the same line
+
+
+INPUT:
+print("Please enter your name: ") name = input() print("You entered:", name)
+
+OUTPUT:
+Please enter your name: 
+sophia
+You entered: Sophia
+
+INPUT:
+print("Please enter a number: ") number = input() print("Value =", number)
+
+OUTPUT:
+Please enter a number: 
+six
+Value = six
+
+Which is the assignment operator? 
+ a. : b. == c. =
+
+Q: writing variable names in snake case,
+A: first_name  or  total_price.
+
+RESERVED  BY PYTHON:
+False, await, else, import, pass, None, break, except, in, raise, True, class, finally, is, return, and, continue, for, lambda, try, as, def, from, non, local, while ,assert, del, global, not, with, asynch,  elif, if, or, yield.
+Q: Which can be used as a variable name?
+ a. median b. class  c. import
+
+A string is a sequence of characters enclosed by matching single (') or double (") quotes.
+
+Using len() to get the length of a string
+
+Concatenation is an operation that combines two or more strings sequentially with the concatenation operator (+).
+
+TASK: TRY IT, Name length, Write a program that asks the user to input their first and last name separately. Use the following prompts (example input in bold): 
+What is your first name? Alan 
+What is your last name? Turing
+ The program should then output the length of each name. Based on the example input above,
+ the output would be:
+ Your first name is 4 letters long 
+Your last name is 6 letters long
+
+SYNTAX INPUT:
+x=input("what is your first name?: ") y=input("what is your last name?: ") print(f"your first name is {len(x)} letters long") print(f"your last name is {len(y)} letters long")
+SYNTAX   OUTPUT:
+x=input("what is your first name?: ") y=input("what is your last name?: ") print(f"your first name is {len(x)} letters long") print(f"your last name is {len(y)} letters long")
+=== Code Execution Successful ===
+
+
+
+TASK: TRY IT, Punctuation, Write a Python computer program that:
+ • Assigns the string "Freda" to a variable, name.
+• Assigns the string "happy" to a variable, feel.
+ • Prints the string "Hi Freda!" with a single print() function using the variable name. 
+• Prints the string "I'm glad you feel happy." with a single print() function using the variable feel.
+SYNTAX  INPUT:
+name="Fareeda"
+feel="Happy"
+print("Hi " +name)
+print("I am glad you feel " +feel)
+SYNTAX  OUTPUT:
+Hi Fareeda
+I am glad you feel Happy
+
+=== Code Execution Successful ===
+
+The format a language uses to represent data is called a data type.
+SYNTAX  INPUT:
+x=1
+print(x,type(x))
+SYNTAX  OUTPUT:
+1 <class 'int'>
+
+=== Code Execution Successful ===
+
+INPUT:
+y=2.0
+print(y,type(y))
+OUTPUT:
+2.0 <class 'float'>
+
+INPUT:
+s = "32"
+print(s,type(s))
+
+OUTPUT:
+
+32 <class 'str'>
+
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division. 
+Four basic arithmetic operators exist in Python:
+1.	Addition (+) 2. Subtraction (-) 3. Multiplication (*) 4. Division (/)
+
+traceback suggests a programmer trace back in the code to find the error if the error is not seen right away.
+
+Each comment begins with a hash character (#). 
+
+Python's first release, known as Version 0.9.0, appeared in 1991, by , Guido van Rossum
+
+A docstring is documentation written for others who will use the program but not necessarily read the source code.
+
+docstrings are generally written as multi-line strings ("""). Common elements of a docstring include a one-line summary, a blank line, and a longer description.
+
+EXAMPLE of docstrings:
+
+"""Vacations Madlib. This program asks the user for two adjectives and two nouns, which are then used to print a funny story about a vacation. """
+
+An expression represents a single value to be computed. Ex: The expression 3*x - 5 evaluates to 7 when x is 4.
+
+Python interpreter translates source code into machine code and runs the resulting program.
+
+A shell, also called a console or terminal, is a program that allows direct interaction with an interpreter
+
+REPL stands for "read-eval print loop,"
+1. Read/input some code
+ 2. Evaluate/run the code
+ 3. Print any results
+ 4. Loop back to step 1
+
