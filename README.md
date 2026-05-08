@@ -1,6 +1,5 @@
-# Python programming beginners
-“PYTHON NOTES”
-A statement describes some action to be carried out.
+“MY PYTHON NOTES”
+
 
 A computer is an electronic device that stores and processes information
 
