@@ -136,6 +136,16 @@ print(f"both operand {x} and {y} is greater than 10    {f}")
 print(f"either first operand {x} or second operand {y} are greater than 10   {t}")
 print(f"giving opposite result i.e {u}, when {x} any {y} are greater than 10")
 
+PROG#12
 
-
+employees={
+    "Emp1":{"name": "Alice","role": "Engineer"},
+    "Emp2": {"name": "Bob","role": "Designer"},
+    "Emp3": {"name": "Charlie","role": "Manager"},
+}
+for emp_id,details in employees.items():
+    print()
+    print(f"ID:{emp_id}")
+    for key,value in details.items(): 
+        print(f"{key}:{value}")
 
