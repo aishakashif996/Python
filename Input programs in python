@@ -149,3 +149,32 @@ for emp_id,details in employees.items():
     for key,value in details.items(): 
         print(f"{key}:{value}")
 
+PROG#13
+students ={
+    "Ayesha":{
+        "age":21,
+        "grades":{
+            "math":90,
+            "physics":85,
+            "chemistry":88
+            
+        }
+    },
+    "Bilal":{
+        "age":22,
+        "grades":{
+            "math":75,
+            "physics":80,
+            "chemistry":70
+            
+        }
+    }
+}
+for name,info in students.items():
+    print()
+    print(f"{name}:")
+    print(f"Age:{info["age"]}")
+    for key,value in info["grades"].items():
+        print(f"{key}:{value}")
+
+
