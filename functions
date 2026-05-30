@@ -1,0 +1,22 @@
+'''def greet():
+    print("hi")
+    print("hello")
+greet()'''
+
+
+'''def greet_person(name):
+    print(f"hello,{name}")
+greet_person("aisha")'''
+
+
+'''def intro(name,gender,age,city='karachi',):
+    print(f"my name is {name}")
+    print(f"I am {gender}")
+    print(f"I am {age}")
+    print(f"I live in {city}")
+intro(name='ali',age=14,gender='male',city='lahore')'''
+
+
+'''def add(a,b):
+    return a + b
+print(add(5,6))'''
