@@ -1,0 +1,34 @@
+def add(a,b):
+    return a+b
+print(add(3,7))
+
+#10
+
+=== Code Execution Successful ===
+
+def add(a,b,c):
+    return a+b+c
+print(add(3,7,6))
+
+#16
+
+=== Code Execution Successful ===
+
+
+def add(*args):
+    return sum(args)
+print(add(3,7,6,23))
+
+#39
+
+=== Code Execution Successful ===
+
+def greet(*name):
+    print(f"name is a {type(name)}")
+    print(f"name contains: {name}")
+greet("ali","sara")
+
+name is a <class 'tuple'>
+name contains: ('ali', 'sara')
+
+=== Code Execution Successful ===
