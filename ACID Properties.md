@@ -682,28 +682,4 @@ Is data critical (banking, trading)?
 
 ---
 
-## Author Notes
-
-This guide is designed for:
-- 📚 Database course students
-- 🎓 Viva exam preparation
-- 💼 Job interview preparation
-- 🔧 Production system design
-
-**Format:** Lecture-based study guide with examples and code snippets
-
-**Last Updated:** 2026
-
----
-
-**Ready to learn more?** Check out related topics:
-- Transactions and ACID
-- Concurrency Control
-- Locking Mechanisms
-- Database Optimization
-
-**Questions?** Open an issue or discuss with your instructor!
-
----
-
-*This guide is derived from database management lectures and includes practical examples for real-world understanding.*
+## PRESENTED BY AISHA KASHIF
